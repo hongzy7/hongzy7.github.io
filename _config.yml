@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
 title: HONG Ziye (洪梓烨)
-description: Resume
+description: hongzy7@gmail.com
+logo: ./index.assets/potrait.jpeg
+show_downloads: false
+google_analytics:
