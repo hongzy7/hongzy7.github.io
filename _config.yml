@@ -2,5 +2,5 @@ theme: jekyll-theme-minimal
 title: HONG Ziye
 description: hongzy7@gmail.com
 logo: ./index.assets/potrait.jpeg
-show_downloads: true
+show_downloads: false
 google_analytics:
