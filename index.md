@@ -1,5 +1,6 @@
 # Education
-- 2017/09-2021/07 Sun Yat-sen University: 
+- **2021/09-2022/07**: [Shenzhen innoX Academy](https://innoxsz.com/)
+- **2017/09-2021/07** : [Sun Yat-Sen University](https://www.sysu.edu.cn/sysuen/)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hongzy7/hongzy7.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
