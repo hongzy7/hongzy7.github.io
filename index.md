@@ -1,10 +1,13 @@
 # EDUCATION
 - **2021/09-2022/07**: [Shenzhen innoX Academy](https://innoxsz.com/)
 - **2017/09-2021/07** : [Sun Yat-Sen University](https://www.sysu.edu.cn/sysuen/)
+
 # PUBLICATION & PATENT
 - 
 
 # PROJECTS & CONTENTS
+- 
+
 
 ## Welcome to GitHub Pages
 
