@@ -58,3 +58,10 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 <big>**2019/05-2019/11** : [MathWorks Minidrone Competition](https://ww2.mathworks.cn/academia/student-competitions/minidrones/sysu-2019.html?s_tid=srchtitle_MathWorks%20Minidrone%20Competition%20SYSU_1) </big> <u>*Chief Member*</u>
 
 * 
+
+
+
+<big>**2019/05-2019/11** : [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US)</big> <u>*Chief Member*</u>
+
+* 
+
