@@ -27,14 +27,14 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 
 *Supervisor: Prof. [Zexiang Li](https://seng.hkust.edu.hk/about/people/faculty/zexiang-li) from Hong Kong University of Science and Technology*
 
-* Learned the fundamental courses of product design and visited the robot production lines at DJIInnovations,
+* Learned the fundamental courses of product design and visited the robot production lines at DJI Innovations,
   3irobotix, etc.
 * Designed independently and produced a safe fishing-aid bait adding solution
 * Earned 2nd prize in the summer camp
 
 <big>**2021/01-2021/06** : Advanced Technology Research Institute MicroLab of Sun Yat-sen University</big>
 
-*Supervisor: Prof. [Tianjiang Hu](https://saa.sysu.edu.cn/teacher/186) from Sun Yat-sen University, China*
+*Supervisor: Prof. [Tianjiang Hu](https://saa.sysu.edu.cn/teacher/186) from Sun Yat-sen University*
 
 * Achieved target detection on the UAV fuselage key points by Convolutional neural network (modified YOLO algorithm) in Linux system
 * Recorded the sequence charts of the UAV fight tests, obtained the labeled dataset with LabelImg
@@ -43,7 +43,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 
 <big>**2019/06-2020/01** : Advanced Technology Research Institute MicroLab of Sun Yat-sen University</big>
 
-*Supervisor: Prof. [Zhigang Wu](https://saa.sysu.edu.cn/teacher/196) & Associate Prof. [Jianing Wu](https://saa.sysu.edu.cn/teacher/233) from Sun Yat-sen University, China*
+*Supervisor: Prof. [Zhigang Wu](https://saa.sysu.edu.cn/teacher/196) & Associate Prof. [Jianing Wu](https://saa.sysu.edu.cn/teacher/233) from Sun Yat-sen University*
 
 * 
 
