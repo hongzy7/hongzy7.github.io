@@ -66,7 +66,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 * Received systematic training in UAV control system and image recognition technology;
 * Programmed in MATLAB SIMULINK to carry out the image recognition.
 
-<big>**2019/05-2019/11** : [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US)</big>  <u>*Chief Member*</u>
+<big>**2019/05-2019/11** : [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US)</big>  *<u>Chief Member</u>*
 
 * Assumed as the chief engineer to take in charge of the mechanical design of the robot via SolidWorks, Ansys structure analysis, 3D printing and metal processing techniques, and the testing of the electronic control;
 * Led the team to win multiple honors in the national contests, including *Superior Appearance Design*, conducted academic writing and won the patent authorization .
@@ -77,13 +77,13 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 * Achieved the image transmission in TeamViewer from UAV to mini program of the users;
 * Earned 2nd prize in the University contest and the Best Popularity Award.
 
-<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  <u>*Team Leader*</u>
+<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  *<u>Team Leader</u>*
 
 * Proposed the innovation of shared UAV for aerial photo, and teamed up to carry out the project;
 * Design the overall business plan and the demonstration of proposed software production;
 * Earned 3rd Prize .
 
-<big>**2019/05-2019/11** : The Dynamic Analysis of Writing Brush Furcation Phenomenon Based on Experiments</big>  <u>*Chief Member*</u>
+<big>**2019/05-2019/11** : The Dynamic Analysis of Writing Brush Furcation Phenomenon Based on Experiments</big>  *<u>Chief Member</u>*
 
 *Supervisor: Prof. [Qinghe Yao](https://saa.sysu.edu.cn/teacher/238) and Dr. Wenhao Cai from Sun Yat-sen University*
 
