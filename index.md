@@ -41,11 +41,13 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 * Adopted two attitude estimation algorithms based on PnP to compare the accuracy and speed: EPnP method and POSIT iterative algorithm
 * Summarized the findings in academic writing and earned the honor of “Excellent Thesis Work”
 
-<big>**2019/06-2020/01** : Advanced Technology Research Institute MicroLab of Sun Yat-sen University</big>
+<big>**2019/06-2020/01** : Intelligent Bionic Robot Lab of Sun Yat-sen University</big>
 
-*Supervisor: Prof. [Zhigang Wu](https://saa.sysu.edu.cn/teacher/196) & Associate Prof. [Jianing Wu](https://saa.sysu.edu.cn/teacher/233) from Sun Yat-sen University*
+*Supervisor: Prof. [Zhigang Wu](https://saa.sysu.edu.cn/teacher/196) and Associate Prof. [Jianing Wu](https://saa.sysu.edu.cn/teacher/233) from Sun Yat-sen University*
 
-* 
+* Detected the bee’s behavior of tentacle cleaning via high-speed camera, further observed the secondary structure, and measured the parameters of the structure via confocal laser scanning microscope 
+* Designed and manufactured the cleaning structure in SolidWorks and 3D printer, measured the force of friction and cleaning efficiency by a sensor 
+* Concluded that the cleaning structure with secondary structure are with greater force of friction and higher cleaning efficiency
 
 
 
