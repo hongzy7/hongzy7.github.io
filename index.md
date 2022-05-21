@@ -1,6 +1,9 @@
 # EDUCATION
 <big>**2022/08-**: [National University of Singapore](https://www.nus.edu.sg/)</big>
 
+- Major: Mechanical Engineering
+- Master of Science
+
 <big>**2021/09-2022/07**: [Shenzhen innoX Academy](https://innoxsz.com/)</big>
 
 - Courses jointly taught by Hong Kong University of Science and Technology, Southern
