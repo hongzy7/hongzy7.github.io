@@ -1,4 +1,6 @@
 # EDUCATION
+<big>**2022/08-**: [National University of Singapore](https://www.nus.edu.sg/)</big>
+
 <big>**2021/09-2022/07**: [Shenzhen innoX Academy](https://innoxsz.com/)</big>
 
 - Courses jointly taught by Hong Kong University of Science and Technology, Southern
@@ -9,7 +11,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 - Supervised research: an intelligent wheelchair with aided-driving technology (undergoing)
 - Full financial support
 
-<big>**2017/09-2021/07** : [Sun Yat-Sen University](https://www.sysu.edu.cn/sysuen/)</big>
+<big>**2017/09-2021/07** : [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/)</big>
 
 - Major: Aeronautical and Astronautical Engineering
 - Bachelor of Engineering
@@ -21,7 +23,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 - **Ziye Hong**. Prediction of 2019-nCoV Epidemic by Linear Regression Model. *ACM ICPS*. ISBN: 978-1-4503-8860-3, July 2020
 - Chihang Liu, Hao Luo, Hui Cheng, **Ziye Hong**, Runtao Liu. A novel chassis-detachable storage and output sphere.CN202020242466.3 Match 2020
 
-# PROJECTS & CONTENTS
+# PROJECTS
 
 <big>**2021/07-2021/08** : [XbotPark](http://www.xbotpark.com/en/) 2021 Intelligent C-Terminal Scientific Innovation Camp</big>
 
@@ -53,9 +55,11 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 
 <big>**2020/02-2020/06** : Prediction of 2019-nCoV Epidemic by Linear Regression Model</big>
 
-*Supervisor: Prof. [Rakesh Kumar](https://cs.illinois.edu/about/people/all-faculty/rakeshk) from University of Illinois at Urbana Champaign, USA*
+*Supervisor: Prof. [Rakesh Kumar](https://cs.illinois.edu/about/people/all-faculty/rakeshk) from University of Illinois at Urbana Champaign*
 
 * 
+
+# CONTENTS
 
 <big>**2019/05-2019/11** : [MathWorks Minidrone Competition](https://ww2.mathworks.cn/academia/student-competitions/minidrones/sysu-2019.html?s_tid=srchtitle_MathWorks%20Minidrone%20Competition%20SYSU_1) </big> <u>*Chief Member*</u>
 
@@ -63,7 +67,21 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 
 
 
-<big>**2019/05-2019/11** : [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US)</big> <u>*Chief Member*</u>
+<big>**2019/05-2019/11** : [RoboMaster University Championship (RMUC)](https://www.robomaster.com/en-US)</big>  <u>*Chief Member*</u>
+
+* 
+
+<big>**2018/10-2019/04** : Software Innovation Contest of SYSU</big>  <u>*Chief Member*</u>
+
+* 
+
+<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  <u>*Team Leader*</u>
+
+* 
+
+<big>**2019/05-2019/11** : The Dynamic Analysis of Writing Brush Furcation Phenomenon Based on Experiments</big>  <u>*Chief Member*</u>
+
+*Supervisor: Prof. [Qinghe Yao](https://saa.sysu.edu.cn/teacher/238) and Dr. Wenhao Cai from Sun Yat-sen University*
 
 * 
 
