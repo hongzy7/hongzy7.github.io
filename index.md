@@ -61,7 +61,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 
 # CONTENTS
 
-<big>**2019/05-2019/11** : [MathWorks Minidrone Competition](https://ww2.mathworks.cn/academia/student-competitions/minidrones/sysu-2019.html?s_tid=srchtitle_MathWorks%20Minidrone%20Competition%20SYSU_1) </big> <u>*Chief Member*</u>
+<big>**2019/05-2019/11** : [MathWorks Minidrone Competition](https://ww2.mathworks.cn/academia/student-competitions/minidrones/sysu-2019.html?s_tid=srchtitle_MathWorks%20Minidrone%20Competition%20SYSU_1) </big>  *<u>Chief Member</u>*
 
 * Received systematic training in UAV control system and image recognition technology;
 * Programmed in MATLAB SIMULINK to carry out the image recognition.
@@ -71,13 +71,13 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 * Assumed as the chief engineer to take in charge of the mechanical design of the robot via SolidWorks, Ansys structure analysis, 3D printing and metal processing techniques, and the testing of the electronic control;
 * Led the team to win multiple honors in the national contests, including *Superior Appearance Design*, conducted academic writing and won the patent authorization .
 
-<big>**2018/10-2019/04** : Software Innovation Contest of SYSU</big>  <u>*Chief Member*</u>
+<big>**2018/10-2019/04** : Software Innovation Contest of SYSU</big>  *<u>Chief Member</u>*
 
 * Developed WeChat mini program via WeChat developer toolkit, stored data via Ali cloud server;
 * Achieved the image transmission in TeamViewer from UAV to mini program of the users;
 * Earned 2nd prize in the University contest and the Best Popularity Award.
 
-<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  *<u>Team Leader</u>*
+<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  *<u>Chief Member</u>*
 
 * Proposed the innovation of shared UAV for aerial photo, and teamed up to carry out the project;
 * Design the overall business plan and the demonstration of proposed software production;
