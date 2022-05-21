@@ -77,7 +77,7 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc
 * Achieved the image transmission in TeamViewer from UAV to mini program of the users;
 * Earned 2nd prize in the University contest and the Best Popularity Award.
 
-<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  *<u>Chief Member</u>*
+<big>**2018/01-2018/06** : The Challenge Cup Business Plan Contest for National College Student</big>  *<u>Team Leader</u>*
 
 * Proposed the innovation of shared UAV for aerial photo, and teamed up to carry out the project;
 * Design the overall business plan and the demonstration of proposed software production;
