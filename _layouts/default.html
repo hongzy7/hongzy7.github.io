@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" data-theme="light">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+    <script>
+      (function () {
+        var storedTheme = null;
+        try {
+          storedTheme = localStorage.getItem("preferred-theme");
+        } catch (error) {}
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = storedTheme || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -13,6 +24,17 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div class="site-controls" aria-label="Display preferences">
+      <button class="preference-button theme-button" type="button" data-theme-toggle aria-label="Toggle color theme">☾</button>
+      <button class="preference-button language-button" type="button" data-lang-toggle aria-label="Toggle language">en</button>
+    </div>
+
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">About Me</a>
+      <a href="#education" data-i18n="navEducation">Education</a>
+      <a href="#work" data-i18n="navWork">Work</a>
+    </nav>
+
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -24,13 +46,13 @@
         <!--<p>{{ site.description | default: site.github.project_tagline }}</p>-->
 
 
-        <p class="view"><strong>Email:</strong><br> <a href="hongzy7@gmail.com">hongzy7@gmail.com</a></p>
-        
-        <p class="view"><strong>Phone:</strong><br> <a href="65-89422817">65-89422817</a></p>
+        <p class="view"><strong data-i18n="emailLabel">Email:</strong><br> <a href="mailto:hongzy7@gmail.com">hongzy7@gmail.com</a></p>
+
+        <p class="view"><strong data-i18n="phoneLabel">Phone:</strong><br> <a href="tel:+6589422817">65-89422817</a></p>
         
 <!--         <p class="view"><strong>Resume:</strong><br> <a href="../index.assets/Resume-HONG Ziye.pdf">Resume.pdf</a></p> -->
 
-        <p class="view"><strong>Resume:</strong><br> <a href="../index.assets/Resume-HONG Ziye.pdf">Resume.pdf</a></p>
+        <p class="view"><strong data-i18n="resumeLabel">Resume:</strong><br> <a href="../index.assets/Resume-HONG Ziye.pdf" data-i18n="resumeLink">Resume.pdf</a></p>
 
 <!--         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -60,6 +82,7 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>-->
     </div>
+    <script src="{{ "/assets/js/preferences.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

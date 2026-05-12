@@ -1,16 +1,52 @@
 @import "fonts";
 @import "rouge-github";
 
+:root {
+  color-scheme: light;
+  --color-bg: #ffffff;
+  --color-text: #5f6368;
+  --color-heading: #202124;
+  --color-heading-muted: #34373a;
+  --color-link: #267cb9;
+  --color-link-hover: #005a8f;
+  --color-border: #e5e5e5;
+  --color-surface: #f8f8f8;
+  --color-control-bg: #f5f7f9;
+  --color-control-bg-hover: #e9eef3;
+  --color-control-text: #2f3437;
+  --color-kbd-bg: #fafbfc;
+  --color-kbd-border: #c6cbd1;
+  --color-kbd-shadow: #959da5;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #111418;
+  --color-text: #c5cbd3;
+  --color-heading: #f2f5f8;
+  --color-heading-muted: #e2e7ed;
+  --color-link: #72b7f2;
+  --color-link-hover: #a8d4ff;
+  --color-border: #303842;
+  --color-surface: #171d24;
+  --color-control-bg: #202832;
+  --color-control-bg-hover: #2a3542;
+  --color-control-text: #edf2f7;
+  --color-kbd-bg: #202832;
+  --color-kbd-border: #4a5563;
+  --color-kbd-shadow: #111820;
+}
+
 body {
-  background-color: #fff;
+  background-color: var(--color-bg);
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:var(--color-text);
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:var(--color-heading);
   margin:0 0 20px;
 }
 
@@ -27,32 +63,32 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:var(--color-heading-muted);
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:var(--color-heading-muted);
 }
 
 a {
-  color:#267CB9;
+  color:var(--color-link);
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:var(--color-link-hover);
   font-weight: bold;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:var(--color-text);
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:var(--color-text);
 }
 
 .wrapper {
@@ -61,7 +97,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid var(--color-border);
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -69,14 +105,14 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color:var(--color-heading-muted);
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: var(--color-surface);
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid var(--color-border);
   overflow-x: auto;
 }
 
@@ -88,16 +124,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid var(--color-border);
 }
 
 dt {
-  color:#444;
+  color:var(--color-heading-muted);
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:var(--color-heading-muted);
 }
 
 img {
@@ -105,12 +141,12 @@ img {
 }
 
 kbd {
-  background-color: #fafbfc;
-  border: 1px solid #c6cbd1;
-  border-bottom-color: #959da5;
+  background-color: var(--color-kbd-bg);
+  border: 1px solid var(--color-kbd-border);
+  border-bottom-color: var(--color-kbd-shadow);
   border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
+  box-shadow: inset 0 -1px 0 var(--color-kbd-shadow);
+  color: var(--color-heading-muted);
   display: inline-block;
   font-size: 11px;
   line-height: 10px;
@@ -125,20 +161,98 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.site-controls {
+  display:flex;
+  gap:8px;
+  position:fixed;
+  right:24px;
+  top:20px;
+  z-index:10;
+}
+
+.top-nav {
+  align-items:center;
+  background:var(--color-bg);
+  border-bottom:1px solid var(--color-border);
+  display:flex;
+  gap:22px;
+  justify-content:center;
+  left:0;
+  min-height:54px;
+  position:fixed;
+  right:0;
+  top:0;
+  z-index:9;
+}
+
+.top-nav a {
+  color:var(--color-heading-muted);
+  font-size:13px;
+  font-weight:700;
+  text-decoration:none;
+}
+
+.top-nav a:hover,
+.top-nav a:focus {
+  color:var(--color-link);
+}
+
+.preference-button {
+  appearance:none;
+  background:var(--color-control-bg);
+  border:1px solid var(--color-border);
+  border-radius:5px;
+  color:var(--color-control-text);
+  cursor:pointer;
+  font:inherit;
+  font-weight:700;
+  line-height:1.2;
+  height:36px;
+  min-width:36px;
+  padding:0 10px;
+}
+
+.theme-button {
+  font-size:18px;
+  padding:0;
+  width:36px;
+}
+
+.language-button {
+  font-size:12px;
+  letter-spacing:0;
+  text-transform:uppercase;
+}
+
+.preference-button:hover,
+.preference-button:focus {
+  background:var(--color-control-bg-hover);
+  border-color:var(--color-link);
+  outline:none;
+}
+
+[data-lang-content] {
+  display:none;
+}
+
+[data-active-lang] {
+  display:block;
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: var(--color-control-bg);
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid var(--color-border);
   width:270px;
 }
 
 .downloads li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid var(--color-border);
   height:40px;
 }
 
@@ -153,7 +267,7 @@ ul.downloads {
 .downloads a {
   line-height:1;
   font-size:11px;
-  color:#676767;
+  color:var(--color-text);
   display:block;
   text-align:center;
   padding-top:6px;
@@ -161,16 +275,16 @@ ul.downloads {
 }
 
 .downloads a:hover, .downloads a:focus {
-  color:#675C5C;
+  color:var(--color-heading-muted);
   font-weight:bold;
 }
 
 .downloads ul a:active {
-  background-color:#f0f0f0;
+  background-color:var(--color-control-bg-hover);
 }
 
 strong {
-  color:#222;
+  color:var(--color-heading);
   font-weight:700;
 }
 
@@ -182,7 +296,7 @@ strong {
 .downloads a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:var(--color-heading);
 }
 
 section {
@@ -197,7 +311,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:var(--color-border);
   height:1px;
   margin:0 0 20px;
 }
@@ -228,7 +342,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid var(--color-border);
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -250,6 +364,17 @@ footer {
     word-wrap:break-word;
   }
 
+  .top-nav {
+    gap:14px;
+    justify-content:flex-start;
+    overflow-x:auto;
+    padding:0 118px 0 15px;
+  }
+
+  .top-nav a {
+    flex:0 0 auto;
+  }
+
   header {
     padding:0;
   }
@@ -268,6 +393,11 @@ footer {
     padding:15px;
   }
 
+  .site-controls {
+    right:15px;
+    top:12px;
+  }
+
   .downloads {
     width:99%;
   }
@@ -281,6 +411,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:var(--color-heading-muted);
   }
 }
