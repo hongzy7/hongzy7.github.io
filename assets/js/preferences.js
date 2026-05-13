@@ -4,6 +4,7 @@
 
   var labels = {
     en: {
+      siteName: "ZIYE (Jerry) HONG",
       emailLabel: "Email:",
       phoneLabel: "Phone:",
       resumeLabel: "Resume:",
@@ -16,6 +17,7 @@
       langToggle: "zh"
     },
     zh: {
+      siteName: "洪梓烨",
       emailLabel: "邮箱：",
       phoneLabel: "电话：",
       resumeLabel: "简历：",
@@ -33,6 +35,8 @@
   var themeButton = document.querySelector("[data-theme-toggle]");
   var langButton = document.querySelector("[data-lang-toggle]");
   var languageBlocks = document.querySelectorAll("[data-lang-content]");
+  var pageLinks = document.querySelectorAll("[data-page-link]");
+  var activePage = "about";
 
   function getStored(key) {
     try {
@@ -99,12 +103,38 @@
       setStored(LANG_KEY, lang);
     }
     updateThemeButton(root.getAttribute("data-theme"));
+    setPage(activePage);
+  }
+
+  function setPage(page) {
+    activePage = page || "about";
+
+    Array.prototype.forEach.call(document.querySelectorAll("[data-page-content]"), function (block) {
+      if (block.getAttribute("data-page-content") === activePage) {
+        block.setAttribute("data-active-page", "");
+      } else {
+        block.removeAttribute("data-active-page");
+      }
+    });
+
+    Array.prototype.forEach.call(pageLinks, function (link) {
+      if (link.getAttribute("data-page-link") === activePage) {
+        link.setAttribute("data-active-page-link", "");
+      } else {
+        link.removeAttribute("data-active-page-link");
+      }
+    });
+
+    if (window.location.hash !== "#" + activePage) {
+      history.replaceState(null, "", "#" + activePage);
+    }
   }
 
   var initialTheme = getStored(THEME_KEY) || systemTheme();
   var initialLanguage = getStored(LANG_KEY) || systemLanguage();
   setTheme(initialTheme, false);
   setLanguage(initialLanguage, false);
+  setPage("about");
 
   if (themeButton) {
     themeButton.addEventListener("click", function () {
@@ -117,6 +147,13 @@
       setLanguage(root.getAttribute("lang") === "zh-CN" ? "en" : "zh", true);
     });
   }
+
+  Array.prototype.forEach.call(pageLinks, function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      setPage(link.getAttribute("data-page-link"));
+    });
+  });
 
   var themeMedia = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
   if (themeMedia) {

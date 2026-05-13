@@ -24,20 +24,21 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="site-controls" aria-label="Display preferences">
-      <button class="preference-button theme-button" type="button" data-theme-toggle aria-label="Toggle color theme">☾</button>
-      <button class="preference-button language-button" type="button" data-lang-toggle aria-label="Toggle language">en</button>
-    </div>
-
     <nav class="top-nav" aria-label="Main navigation">
-      <a href="#about" data-i18n="navAbout">About Me</a>
-      <a href="#education" data-i18n="navEducation">Education</a>
-      <a href="#work" data-i18n="navWork">Work</a>
+      <div class="nav-links">
+        <a href="#about" data-page-link="about" data-i18n="navAbout">About Me</a>
+        <a href="#education" data-page-link="education" data-i18n="navEducation">Education</a>
+        <a href="#work" data-page-link="work" data-i18n="navWork">Work</a>
+      </div>
+      <div class="nav-actions" aria-label="Display preferences">
+        <button class="preference-button theme-button" type="button" data-theme-toggle aria-label="Toggle color theme">☾</button>
+        <button class="preference-button language-button" type="button" data-lang-toggle aria-label="Toggle language">en</button>
+      </div>
     </nav>
 
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}" data-i18n="siteName">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />

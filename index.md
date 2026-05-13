@@ -1,12 +1,20 @@
 <div data-lang-content="en" data-active-lang markdown="1">
 
-# <span id="about">ABOUT ME</span>
+<div data-page-content="about" data-active-page markdown="1">
+
+<a id="about"></a>
+# ABOUT ME
 
 I am interested in robotics, intelligent systems, product design, and the way engineering research can become practical tools for real people. My academic path in mechanical engineering and aeronautical engineering has shaped how I think: start from a real problem, understand the physical system, build carefully, test honestly, and keep improving.
 
 I hope to keep working at the intersection of mechanical design, sensing, AI, and human-centered products. I value curiosity, disciplined execution, and projects that connect technical depth with meaningful everyday impact.
 
-# <span id="education">EDUCATION</span>
+</div>
+
+<div data-page-content="education" markdown="1">
+
+<a id="education"></a>
+# EDUCATION
 <big>**2022/08-**: [National University of Singapore](https://www.nus.edu.sg/)</big>
 
 - Major: Mechanical Engineering
@@ -105,21 +113,36 @@ Basic Sensor Principle and Technology, Design Thoughts, Entrepreneurship, etc.
 * Summarized the finding in academic writing and published on the Yau Mathematical Sciences Center, Tsinghua University.
 * Earned the Global Gold Award in the Shing-Tung Yau Physics Contest for Middle School Students.
 
-# <span id="work">WORK EXPERIENCE</span>
+</div>
+
+<div data-page-content="work" markdown="1">
+
+<a id="work"></a>
+# WORK EXPERIENCE
 
 Work experience will be added here. Suggested items include internship or full-time role, organization, location, dates, key responsibilities, tools used, and measurable outcomes.
 
 </div>
 
+</div>
+
 <div data-lang-content="zh" markdown="1">
 
-# <span id="about">关于我</span>
+<div data-page-content="about" data-active-page markdown="1">
+
+<a id="about"></a>
+# 关于我
 
 我关注机器人、智能系统、产品设计，以及工程研究如何转化为真正可用、能帮助人的工具。机械工程与航空航天工程的学习经历塑造了我的思考方式：从真实问题出发，理解物理系统，谨慎构建，诚实测试，并持续迭代。
 
 我希望继续在机械设计、传感、人工智能与以人为中心的产品之间探索。对我来说，长期的兴趣来自好奇心、扎实执行，以及把技术深度和现实价值连接起来的项目。
 
-# <span id="education">教育背景</span>
+</div>
+
+<div data-page-content="education" markdown="1">
+
+<a id="education"></a>
+# 教育背景
 <big>**2022/08-**：[新加坡国立大学](https://www.nus.edu.sg/)</big>
 
 - 专业：机械工程
@@ -215,8 +238,15 @@ Work experience will be added here. Suggested items include internship or full-t
 * 完成学术写作总结，并发表于清华大学丘成桐数学科学中心。
 * 获丘成桐中学物理奖全球金奖。
 
-# <span id="work">工作经历</span>
+</div>
+
+<div data-page-content="work" markdown="1">
+
+<a id="work"></a>
+# 工作经历
 
 工作经历可在这里补充。建议包含实习或全职岗位、机构名称、地点、时间、主要职责、使用工具，以及可以量化的成果。
+
+</div>
 
 </div>
